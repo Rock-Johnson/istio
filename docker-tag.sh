@@ -26,9 +26,9 @@ docker pull docker.io/istio/proxyv2:1.2.4
 docker pull grafana/grafana:6.1.6
 
 
-docker pull registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io/kiali/kiali:v0.20
-docker tag registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io/kiali/kiali:v0.20 quay.io/kiali/kiali:v0.20
-docker rmi registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io/kiali/kiali:v0.20
+docker pull registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io_kiali_kiali:v0.20
+docker tag registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io_kiali_kiali:v0.20 quay.io/kiali/kiali:v0.20
+docker rmi registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io_kiali_kiali:v0.20
 
 
 docker pull docker.io/istio/mixer:1.2.4
