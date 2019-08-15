@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 docker pull registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io_coreos_etcd:latest
 docker tag registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io_coreos_etcd:latest quay.io/coreos/etcd:latest
