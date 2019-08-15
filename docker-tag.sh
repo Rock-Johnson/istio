@@ -1,12 +1,12 @@
 #! /bin/bash
 
-docker pull registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io/coreos/etcd:latest
-docker tag registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io/coreos/etcd:latest quay.io/coreos/etcd:latest
-docker rmi registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io/coreos/etcd:latest
+docker pull registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io_coreos_etcd:latest
+docker tag registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io_coreos_etcd:latest quay.io/coreos/etcd:latest
+docker rmi registry.cn-beijing.aliyuncs.com/zhy_k8s/quay.io_coreos_etcd:latest
 
-docker pull registry.cn-beijing.aliyuncs.com/zhy_k8s/kube-apiserver-amd64:v1.7.3
-docker tag registry.cn-beijing.aliyuncs.com/zhy_k8s/kube-apiserver-amd64:v1.7.3 gcr.io/google_containers/kube-apiserver-amd64:v1.7.3
-docker rmi registry.cn-beijing.aliyuncs.com/zhy_k8s/kube-apiserver-amd64:v1.7.3
+docker pull registry.cn-beijing.aliyuncs.com/zhy_k8s/gcr.io_google_containers_kube-apiserver-amd64:v1.7.3
+docker tag registry.cn-beijing.aliyuncs.com/zhy_k8s/gcr.io_google_containers_kube-apiserver-amd64:v1.7.3 gcr.io/google_containers/kube-apiserver-amd64:v1.7.3
+docker rmi registry.cn-beijing.aliyuncs.com/zhy_k8s/gcr.io_google_containers_kube-apiserver-amd64:v1.7.3
 
 
 docker pull consul:1.3.0
